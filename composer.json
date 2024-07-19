@@ -1,0 +1,28 @@
+{
+    "name": "emilkitua/laravel-nida",
+    "description": "PHP/Laravel package for NIDA integration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Kitua",
+            "email": "kituaemil@egktech.co.tz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EmilKitua\\Nida\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EmilKitua\\Nida\\NidaServiceProvider"
+            ]
+        }
+    }
+}
